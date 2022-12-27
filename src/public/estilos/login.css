@@ -1,0 +1,70 @@
+*{
+	font-family: 'Nunito Sans', sans-serif;
+}
+body{
+	background: #3E0BD0;
+	margin:0;
+}
+input[type="text"], input[type="password"]{
+	height: 25px;
+	background-color: #d9d9d9;
+	border:0px solid #9DC7F7;
+	padding-left: 15px;
+}
+form{
+	border-radius: 2.5%;	
+	width: 80%;
+	height: 500px;
+	padding:30px;
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+}
+.logo{
+	grid-row: 1/7;
+	margin: auto 0 auto 50px;
+}
+.boton{
+	width:50%;
+	height:30px;
+	margin:0 0 0 auto;
+	background: #3E0BD0;
+	color:white;
+	border:0px;
+	cursor: pointer;
+}
+.boton:hover{
+	background: #4F1CE1;
+}
+.link-registrar{
+	width:160px;
+	height:25px;
+}
+@media screen and (max-width:728px){
+	.logo{
+		width: 100px;
+		margin:0;
+	}
+	.boton{
+		margin:10px 0 0 0;
+	}
+	form{
+		grid-template-columns: 1fr;
+		justify-items: center;
+		grid-gap: 20px;
+	}
+	input[type="text"],input[type="password"]{
+		width:50%;
+	}
+	body{
+		background: #FFF;
+	}
+}

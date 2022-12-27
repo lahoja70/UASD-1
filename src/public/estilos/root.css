@@ -1,0 +1,22 @@
+
+header nav a, header nav button {
+
+    font-weight: 700 !important;
+    color: #f0f8ff !important;
+    
+}
+
+.buscador h2 {
+
+    font-size: 50px;
+    margin-left: 32px;
+    margin-top: 50px;
+}
+
+.buscador input {
+    width: 70%;
+    margin: 0 15px 0 30px;
+    height: 38px;
+    border: #000 solid 2px;
+}
+
