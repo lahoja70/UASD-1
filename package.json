@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start":"node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "start":"node src/index.js"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
