@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "start":"node src/index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
